@@ -5,7 +5,7 @@ updates"
       interval: "daily"
     ignore:
       - dependency-name: "*"
-        update-types: ["version-update:semver-major", "version-update:semver-minor","version-update:semver-patch"]
+        update-types: ["version-update:semver-major", "version-update:semver-minor", "version-update:semver-patch"]
 
   - package-ecosystem: "docker"
     directory: "/python311"
@@ -13,4 +13,4 @@ updates"
       interval: "daily"
     ignore:
       - dependency-name: "*"
-        update-types: [ "version-update:semver-major", "version-update:semver-minor","version-update:semver-patch" ]
+        update-types: [ "version-update:semver-major", "version-update:semver-minor", "version-update:semver-patch" ]
