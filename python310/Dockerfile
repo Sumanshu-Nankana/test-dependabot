@@ -1,1 +1,1 @@
-FROM public.ecr.aws/ews-network/python:3.10@sha256:6a0567c6cf32f56ba18e981dd915e9ccc0f75ec3361b4cce7e7d6a27edbfb051
+FROM public.ecr.aws/ews-network/python:3.10@sha256:c69dfd6a53dd9ee0b1147f4bf49f49512f7c710c8f308932ce00a881d737c6c6
