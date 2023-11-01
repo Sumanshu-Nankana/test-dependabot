@@ -1,4 +1,4 @@
-updates"
+updates:
   - package-ecosystem: "docker"
     directory: "/python310"
     schedule:
