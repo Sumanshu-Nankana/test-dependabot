@@ -1,0 +1,16 @@
+updates"
+  - package-ecosystem: "docker"
+    directory: "/python310"
+    schedule:
+      interval: "daily"
+    ignore:
+      - dependency-name: "*"
+        update-types: ["version-update:semver-major", "version-update:semver-minor","version-update:semver-patch"]
+
+  - package-ecosystem: "docker"
+    directory: "/python311"
+    schedule:
+      interval: "daily"
+    ignore:
+      - dependency-name: "*"
+        update-types: [ "version-update:semver-major", "version-update:semver-minor","version-update:semver-patch" ]
